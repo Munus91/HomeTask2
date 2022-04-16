@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: HomeTask2Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.465 s <<< FAILURE! - in HomeTask2Test
+testBook  Time elapsed: 0.437 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.mycompany.bookshop.DAO.Book.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 11
+JVM vendor name    : Ubuntu
+JVM vendor version : 11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 5.4.0-107-generic
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection
+	at HomeTask2Test.testBook(HomeTask2Test.java:38)
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection
+	at HomeTask2Test.testBook(HomeTask2Test.java:38)
+Caused by: java.lang.IllegalArgumentException: Unknown Java version: 11
+	at HomeTask2Test.testBook(HomeTask2Test.java:38)
+
+testDataSource  Time elapsed: 0.02 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: class com.mycompany.bookshop.DataSource.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 11
+JVM vendor name    : Ubuntu
+JVM vendor version : 11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 11.0.14.1+1-Ubuntu-0ubuntu1.20.04
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 5.4.0-107-generic
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection
+	at HomeTask2Test.testDataSource(HomeTask2Test.java:23)
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection
+	at HomeTask2Test.testDataSource(HomeTask2Test.java:23)
+Caused by: java.lang.IllegalArgumentException: Unknown Java version: 11
+	at HomeTask2Test.testBook(HomeTask2Test.java:38)
+

@@ -1,0 +1,5 @@
+com/mycompany/bookshop/DAO/Book.class
+com/mycompany/bookshop/servlets/BookServlet.class
+com/mycompany/bookshop/servlets/AddBookServlet.class
+com/mycompany/bookshop/servlets/EditBookServlet.class
+com/mycompany/bookshop/DataSource.class
